@@ -10,10 +10,10 @@ jobs:
       test-image:
         image: siakhooi/tionghua:latest
         ports:
-          - 80:80
+          - 8080:80
     steps:
       - uses: actions/checkout@v3
-      - run: wget -P ./build -nH --mirror --convert-links --adjust-extension --page-requisites --no-parent http://localhost:80
+      - run: wget -P ./build -nH --mirror --convert-links --adjust-extension --page-requisites --no-parent http://localhost:8080
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
