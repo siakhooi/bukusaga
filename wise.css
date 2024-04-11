@@ -1,20 +1,3 @@
-table.borderlayout-group { width: 100%;  }
-table.borderlayout-group tr td{  }
-tr.borderlayout-group {}
-td.borderlayout-top-group {}
-td.borderlayout-bot-group {}
-td.borderlayout-left-group   { vertical-align: top; }
-td.borderlayout-right-group  { vertical-align: top;  }
-td.borderlayout-center-group { vertical-align: top; width: 100%; }
-
-table.borderlayout-site { width: 100%; }
-table.borderlayout-site tr td{}
-tr.borderlayout-site {}
-td.borderlayout-top-site {}
-td.borderlayout-bot-site {}
-td.borderlayout-left-site   {  vertical-align: top;}
-td.borderlayout-right-site  {  vertical-align: top; }
-td.borderlayout-center-site {  vertical-align: top; width: 100%; }
 .gwt-MenuBar{
   padding: 0 10px 0 10px;
 }
@@ -66,16 +49,6 @@ DIV#wise-menu-group-Layout{
 	text-align: right;  
   background-color: #eeeeff;
 }
-H1.wise-error {
-	
-}
-
-P.wise-error {
-	
-}DIV.wise-loadtime {
-	color: #010101;
-	font-size:12px;
-}
 DIV.wise-page-content {
 	padding-left: 0px; 
 	padding-right: 0px;
@@ -83,3 +56,30 @@ DIV.wise-page-content {
 	 color: #010101;
 	font-size: 18px;
 }
+DIV.wise-loadtime {
+	color: #010101;
+	font-size:12px;
+}
+H1.wise-error {
+	
+}
+
+P.wise-error {
+	
+}table.borderlayout-group { width: 100%;  }
+table.borderlayout-group tr td{  }
+tr.borderlayout-group {}
+td.borderlayout-top-group {}
+td.borderlayout-bot-group {}
+td.borderlayout-left-group   { vertical-align: top; }
+td.borderlayout-right-group  { vertical-align: top;  }
+td.borderlayout-center-group { vertical-align: top; width: 100%; }
+
+table.borderlayout-site { width: 100%; }
+table.borderlayout-site tr td{}
+tr.borderlayout-site {}
+td.borderlayout-top-site {}
+td.borderlayout-bot-site {}
+td.borderlayout-left-site   {  vertical-align: top;}
+td.borderlayout-right-site  {  vertical-align: top; }
+td.borderlayout-center-site {  vertical-align: top; width: 100%; }

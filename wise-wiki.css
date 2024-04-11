@@ -1,54 +1,4 @@
-PRE.wise-wiki {
-	
-}H1.wise-wiki-title{
-  padding: 5px 0 5px 10px; 
-  text-indent: 0px;
-  font-size: 24px;
-	background: #010101; 
-  color: white; 
-  text-transform: uppercase;
-}
-OL.wise-wiki{
-}
-UL.wise-wiki{
-}
-LI.wise-wiki{
-    text-indent: 0px;
-    text-align: justify;
-}
-DIV.wise-wiki-image { padding-bottom: 20px; }
-IMG.wise-wiki-image { padding: 2px 2px 2px 2px; margin: 2px 2px 2px 2px; max-height: 100px; }
-DIV.wise-wiki-thumbnail { padding-bottom: 10px; }
-IMG.wise-wiki-thumbnail { height: 50px;}
-A.wise-wiki-thumbnail   { text-decoration: none;}
-SPAN.wise-wiki-thumbnail{ font-size:10px; }
-IMG.wise-wiki-image-icon { height: 20px;}
-A.wise-wiki-link{
-	font-size: 20px; 
-	text-decoration: none; 
-}
-A.wise-wiki-link:hover{
-	text-decoration: underline; 
-}
-A.user-link-people{ color: blue;}
-A.user-link-nickname{ color: red;}
-A.user-link-position{ color: red;}
-A.user-link-quotation{ color: grey; }
-A.user-link-chapter{ color: green; }
-
-BIG.wise-wiki{}
-SMALL.wise-wiki{}
-SUP.wise-wiki{}
-SUB.wise-wiki{}
-INS.wise-wiki{}
-DEL.wise-wiki{}
-SPAN.wise-wiki{}
-STRONG.wise-wiki{}
-EM.wise-wiki{}
-
-SPAN.user-span-important{
-    color: #FF9900;
-}H1.wise-wiki{
+H1.wise-wiki{
 	background: #010101;
 	color: white;
   text-transform: uppercase;
@@ -81,64 +31,25 @@ H5.wise-wiki{
 }
 H6.wise-wiki{
 }
+OL.wise-wiki{
+}
+UL.wise-wiki{
+}
+LI.wise-wiki{
+    text-indent: 0px;
+    text-align: justify;
+}
 HR.wise-wiki{
 	xwidth: 100%;
 }
-
-A.wise-wiki-external-link{
-	color: teal;
-	font-size: 20px; 
-	text-decoration: none; 
-}
-A.wise-wiki-external-link:hover{
-	text-decoration: underline; 
-}
-A.user-external-link-wikipedia{}
-A.user-external-link-hudong{}
-BR.wise-wiki {
-	
-}DIV.wise-wiki-fieldset{ }
-PRE.wise-wiki-fieldset{
-	font-family: courier, monospace;
-	font-size: 12px;
-}
-FIELDSET.wise-wiki{ }
-LEGEND.wise-wiki{
-		font-weight: bold;
-}
-LEGEND.user-fieldset-reference{
-}
-FIELDSET.user-fieldset-reference{
-    background: #eeeeff;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border: solid 1px black;
-    font-size: 14px;
-}
-DIV.user-fieldset-reference{
-}
-DIV.user-fieldset-reference UL{
-	margin-top: 0px; 
-	margin-bottom: 0px;
-}
-DIV.user-fieldset-reference A{
-	font-size: 14px;
-}
-
-UL.wise-wiki-sitemap{}
-LI.wise-wiki-sitemap{}
-A.wise-wiki-sitemap{}
-H1.wise-wiki-sitemap{}
-H2.wise-wiki-sitemap{}
-H3.wise-wiki-sitemap{}
-H4.wise-wiki-sitemap{}
-H5.wise-wiki-sitemap{}
-H6.wise-wiki-sitemap{}
-.wise-wiki-sitemap{font-size: 12px; font-weight: normal; margin-bottom: 0px; margin-top: 0px; padding-top: 0px; padding-bottom: 0px; }
-
-A.wise-wiki-back {
-	
-}p.wise-wiki{
+DIV.wise-wiki-image { padding-bottom: 20px; }
+IMG.wise-wiki-image { padding: 2px 2px 2px 2px; margin: 2px 2px 2px 2px; max-height: 100px; }
+DIV.wise-wiki-thumbnail { padding-bottom: 10px; }
+IMG.wise-wiki-thumbnail { height: 50px;}
+A.wise-wiki-thumbnail   { text-decoration: none;}
+SPAN.wise-wiki-thumbnail{ font-size:10px; }
+IMG.wise-wiki-image-icon { height: 20px;}
+p.wise-wiki{
 	text-indent: 50px; 
 	text-align:justify;
 }
@@ -182,3 +93,93 @@ p.user-list{
 
 
 
+H1.wise-wiki-title{
+  padding: 5px 0 5px 10px; 
+  text-indent: 0px;
+  font-size: 24px;
+	background: #010101; 
+  color: white; 
+  text-transform: uppercase;
+}
+BR.wise-wiki {
+	
+}UL.wise-wiki-sitemap{}
+LI.wise-wiki-sitemap{}
+A.wise-wiki-sitemap{}
+H1.wise-wiki-sitemap{}
+H2.wise-wiki-sitemap{}
+H3.wise-wiki-sitemap{}
+H4.wise-wiki-sitemap{}
+H5.wise-wiki-sitemap{}
+H6.wise-wiki-sitemap{}
+.wise-wiki-sitemap{font-size: 12px; font-weight: normal; margin-bottom: 0px; margin-top: 0px; padding-top: 0px; padding-bottom: 0px; }
+
+PRE.wise-wiki {
+	
+}A.wise-wiki-link{
+	font-size: 20px; 
+	text-decoration: none; 
+}
+A.wise-wiki-link:hover{
+	text-decoration: underline; 
+}
+A.user-link-people{ color: blue;}
+A.user-link-nickname{ color: red;}
+A.user-link-position{ color: red;}
+A.user-link-quotation{ color: grey; }
+A.user-link-chapter{ color: green; }
+
+
+A.wise-wiki-external-link{
+	color: teal;
+	font-size: 20px; 
+	text-decoration: none; 
+}
+A.wise-wiki-external-link:hover{
+	text-decoration: underline; 
+}
+A.user-external-link-wikipedia{}
+A.user-external-link-hudong{}
+DIV.wise-wiki-fieldset{ }
+PRE.wise-wiki-fieldset{
+	font-family: courier, monospace;
+	font-size: 12px;
+}
+FIELDSET.wise-wiki{ }
+LEGEND.wise-wiki{
+		font-weight: bold;
+}
+LEGEND.user-fieldset-reference{
+}
+FIELDSET.user-fieldset-reference{
+    background: #eeeeff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: solid 1px black;
+    font-size: 14px;
+}
+DIV.user-fieldset-reference{
+}
+DIV.user-fieldset-reference UL{
+	margin-top: 0px; 
+	margin-bottom: 0px;
+}
+DIV.user-fieldset-reference A{
+	font-size: 14px;
+}
+
+A.wise-wiki-back {
+	
+}BIG.wise-wiki{}
+SMALL.wise-wiki{}
+SUP.wise-wiki{}
+SUB.wise-wiki{}
+INS.wise-wiki{}
+DEL.wise-wiki{}
+SPAN.wise-wiki{}
+STRONG.wise-wiki{}
+EM.wise-wiki{}
+
+SPAN.user-span-important{
+    color: #FF9900;
+}
